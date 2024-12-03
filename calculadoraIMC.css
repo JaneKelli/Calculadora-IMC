@@ -1,0 +1,101 @@
+ body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(176, 149, 199);
+    text-align: justify;
+    font-size: larger;
+    margin: 0px 30px;
+    
+} 
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    background-color: rgb(241, 80, 207);
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content:space-evenly;
+    box-shadow: 0 0 10px  rgb(241, 80, 207);
+    /* padding: 0px 30px; */
+}
+
+.input{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    box-shadow: 0 0 10px white;
+}
+
+button{
+    border-radius: 10px;
+    width: 300px;
+    height: 45px;
+    border: .5cm;
+    background-color: rgb(188, 50, 243);
+    font-size: large;
+    box-shadow: 0 0 10px rgb(188, 50, 243);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover{
+    background-color: rgb(255, 0, 85); 
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.result{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+    font: italic;
+    box-shadow: 0 0 10px white;
+
+}
+
+h3{
+    text-shadow: 0 0 10px white;
+    color: white;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.imagem{
+    width: 100%;
+    z-index: -1;
+    filter: opacity(0.5);
+    position: absolute;
+}
